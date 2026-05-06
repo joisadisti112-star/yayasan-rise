@@ -3,7 +3,37 @@ import React from "react";
 export default function App() {
   return (
     <div style={{ fontFamily: "Arial, sans-serif", background: "#f5f5f5" }}>
-      
+    <nav
+  style={{
+    position: "fixed",
+    top: 0,
+    width: "100%",
+    padding: "20px 8%",
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    background: "rgba(0,0,0,0.3)",
+    backdropFilter: "blur(10px)",
+    zIndex: 1000,
+    color: "white",
+  }}
+>
+  <h2>RISE</h2>
+
+  <div style={{ display: "flex", gap: "30px" }}>
+    <a href="#tentang" style={{ color: "white", textDecoration: "none" }}>
+      Tentang
+    </a>
+
+    <a href="#program" style={{ color: "white", textDecoration: "none" }}>
+      Program
+    </a>
+
+    <a href="#struktur" style={{ color: "white", textDecoration: "none" }}>
+      Struktur
+    </a>
+  </div>
+</nav>  
       {/* HERO */}
       <section
         style={{
@@ -57,7 +87,7 @@ export default function App() {
       </section>
 
       {/* TENTANG */}
-      <section style={{ padding: "80px 10%" }}>
+      <section id="tentang" style={{ padding: "80px 10%" }}>
         <h2 style={{ fontSize: "42px", color: "#065f46" }}>
           Tentang Yayasan
         </h2>
@@ -79,7 +109,8 @@ export default function App() {
 
       {/* LEGAlITAS */}
       <section
-        style={{
+  id="program"
+  style={{
           background: "white",
           padding: "80px 10%",
         }}
@@ -112,7 +143,7 @@ export default function App() {
       </section>
 
       {/* PENGURUS */}
-      <section style={{ padding: "80px 10%" }}>
+      <section id="struktur" style={{ padding: "80px 10%" }}>
         <h2 style={{ fontSize: "42px", color: "#065f46" }}>
           Struktur Yayasan
         </h2>
@@ -198,6 +229,7 @@ export default function App() {
           © 2026 RISE Sosial Ekologi Indonesia
         </p>
       </footer>
+
     </div>
   );
 }
