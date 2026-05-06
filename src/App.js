@@ -375,7 +375,7 @@ export default function App() {
               <li><a href="#beranda" className="hover:text-emerald-400 transition">Beranda</a></li>
               <li><a href="#tentang" className="hover:text-emerald-400 transition">Tentang Kami</a></li>
               <li><a href="#program" className="hover:text-emerald-400 transition">Program Unggulan</a></li>
-              <li><a href="#" className="hover:text-emerald-400 transition">Laporan Tahunan</a></li>
+              <li><a href="/" className="hover:text-emerald-400 transition">Laporan Tahunan</a></li>
             </ul>
           </div>
         </div>
