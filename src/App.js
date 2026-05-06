@@ -106,10 +106,36 @@ export default function App() {
           pengembangan tata kelola lingkungan yang berkelanjutan.
         </p>
       </section>
+{/* PROGRAM */}
+<section
+  id="program"
+  style={{
+    background: "#f0fdf4",
+    padding: "80px 10%",
+  }}
+>
+  <h2 style={{ fontSize: "42px", color: "#065f46" }}>
+    Program Yayasan
+  </h2>
 
+  <div
+    style={{
+      marginTop: "30px",
+      fontSize: "20px",
+      lineHeight: "2",
+      color: "#333",
+    }}
+  >
+    <p>• Riset Sosial-Ekologis</p>
+    <p>• Resolusi Konflik Sumber Daya Alam</p>
+    <p>• Pendidikan dan Literasi Lingkungan</p>
+    <p>• Pemberdayaan Masyarakat</p>
+    <p>• Advokasi Kebijakan Publik</p>
+  </div>
+</section>
       {/* LEGAlITAS */}
       <section
-  id="program"
+  id="legalitas"
   style={{
           background: "white",
           padding: "80px 10%",
