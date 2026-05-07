@@ -1,4 +1,5 @@
 import React from "react";
+import logoRise from "./logo-rise.png";
 
 export default function App() {
   return (
@@ -52,7 +53,7 @@ export default function App() {
       >
         <div style={{ maxWidth: "900px" }}>
           <img
-            src="https://cdn-icons-png.flaticon.com/512/427/427735.png"
+            src={logoRise}
             alt="logo"
             style={{
               width: "120px",
