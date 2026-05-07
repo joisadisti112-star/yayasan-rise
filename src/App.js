@@ -190,7 +190,7 @@ export default function App() {
           >
             <h3 style={{ color: "#065f46" }}>Ketua Yayasan</h3>
             <p style={{ fontSize: "22px", fontWeight: "bold" }}>
-              Anto Ariyanto
+              Dr. Anto Ariyanto, M. Si.
             </p>
           </div>
 
@@ -240,7 +240,7 @@ export default function App() {
           >
             <h3 style={{ color: "#065f46" }}>Pembina</h3>
             <p style={{ fontSize: "22px", fontWeight: "bold" }}>
-              M. Rawa El Amady
+              Dr. M. Rawa El Amady, M.A.
             </p>
           </div>
 
