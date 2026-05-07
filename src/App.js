@@ -206,7 +206,31 @@ export default function App() {
               Istiqomah Marfuah
             </p>
           </div>
+<div
+  style={{
+    background: "white",
+    padding: "30px",
+    borderRadius: "16px",
+  }}
+>
+  <h3 style={{ color: "#065f46" }}>Bendahara</h3>
+  <p style={{ fontSize: "22px", fontWeight: "bold" }}>
+    Anggi Kemala Rezki
+  </p>
+</div>
 
+<div
+  style={{
+    background: "white",
+    padding: "30px",
+    borderRadius: "16px",
+  }}
+>
+  <h3 style={{ color: "#065f46" }}>Koordinator Program</h3>
+  <p style={{ fontSize: "22px", fontWeight: "bold" }}>
+    Rahmaidi Azani
+  </p>
+</div>
           <div
             style={{
               background: "white",
